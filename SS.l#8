@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="0" fill="1" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="0" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>Upverter Parts Library
+
+Created by Upverter.com</description>
+<packages>
+<package name="MICROCHIP_PIC18F26K80-I-SS_0">
+<description>MCHP-PIC18F26K80-28</description>
+<wire x1="-2" y1="-5.25" x2="-2" y2="5.25" width="0.15" layer="21"/>
+<wire x1="2" y1="-5.25" x2="2" y2="5.25" width="0.15" layer="21"/>
+<wire x1="-2" y1="5.25" x2="2" y2="5.25" width="0.15" layer="21"/>
+<wire x1="-2" y1="-5.25" x2="2" y2="-5.25" width="0.15" layer="21"/>
+<wire x1="-2.8" y1="-5.25" x2="-2.8" y2="5.25" width="0.1" layer="51"/>
+<wire x1="2.8" y1="-5.25" x2="2.8" y2="5.25" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="5.25" x2="2.8" y2="5.25" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="-5.25" x2="2.8" y2="-5.25" width="0.1" layer="51"/>
+<wire x1="-4.6" y1="-5.35" x2="-4.6" y2="5.35" width="0.1" layer="39"/>
+<wire x1="-4.6" y1="5.35" x2="4.6" y2="5.35" width="0.1" layer="39"/>
+<wire x1="4.6" y1="5.35" x2="4.6" y2="-5.35" width="0.1" layer="39"/>
+<wire x1="4.6" y1="-5.35" x2="-4.6" y2="-5.35" width="0.1" layer="39"/>
+<text x="-5.6" y="5.35" size="1" layer="25">&gt;NAME</text>
+<circle x="-3.45" y="5" radius="0.125" width="0.25" layer="21"/>
+<circle x="-1" y="4.25" radius="0.3" width="0.6" layer="21"/>
+<circle x="-1.9" y="4.35" radius="0.5" width="0.1" layer="51"/>
+<smd name="1" x="-3.45" y="4.225" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-3.45" y="3.575" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-3.45" y="2.925" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-3.45" y="2.275" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="5" x="-3.45" y="1.625" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="-3.45" y="0.975" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="-3.45" y="0.325" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="-3.45" y="-0.325" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="9" x="-3.45" y="-0.975" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="10" x="-3.45" y="-1.625" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="11" x="-3.45" y="-2.275" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="12" x="-3.45" y="-2.925" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="13" x="-3.45" y="-3.575" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="14" x="-3.45" y="-4.225" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="28" x="3.45" y="4.225" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="27" x="3.45" y="3.575" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="26" x="3.45" y="2.925" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="25" x="3.45" y="2.275" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="24" x="3.45" y="1.625" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="23" x="3.45" y="0.975" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="22" x="3.45" y="0.325" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="21" x="3.45" y="-0.325" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="20" x="3.45" y="-0.975" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="19" x="3.45" y="-1.625" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="18" x="3.45" y="-2.275" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="17" x="3.45" y="-2.925" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="16" x="3.45" y="-3.575" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="15" x="3.45" y="-4.225" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+</package>
+<package name="MICROCHIP_PIC18F26K80-I-SS_1">
+<description>MCHP-PIC18F26K80-28</description>
+<wire x1="-2" y1="-5.25" x2="-2" y2="5.25" width="0.15" layer="21"/>
+<wire x1="2" y1="-5.25" x2="2" y2="5.25" width="0.15" layer="21"/>
+<wire x1="-2" y1="5.25" x2="2" y2="5.25" width="0.15" layer="21"/>
+<wire x1="-2" y1="-5.25" x2="2" y2="-5.25" width="0.15" layer="21"/>
+<wire x1="-2.8" y1="-5.25" x2="-2.8" y2="5.25" width="0.1" layer="51"/>
+<wire x1="2.8" y1="-5.25" x2="2.8" y2="5.25" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="5.25" x2="2.8" y2="5.25" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="-5.25" x2="2.8" y2="-5.25" width="0.1" layer="51"/>
+<wire x1="-4.75" y1="-5.5" x2="-4.75" y2="5.5" width="0.1" layer="39"/>
+<wire x1="-4.75" y1="5.5" x2="4.75" y2="5.5" width="0.1" layer="39"/>
+<wire x1="4.75" y1="5.5" x2="4.75" y2="-5.5" width="0.1" layer="39"/>
+<wire x1="4.75" y1="-5.5" x2="-4.75" y2="-5.5" width="0.1" layer="39"/>
+<text x="-5.75" y="5.5" size="1" layer="25">&gt;NAME</text>
+<circle x="-3.45" y="5" radius="0.125" width="0.25" layer="21"/>
+<circle x="-1" y="4.25" radius="0.3" width="0.6" layer="21"/>
+<circle x="-1.9" y="4.35" radius="0.5" width="0.1" layer="51"/>
+<smd name="1" x="-3.45" y="4.225" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-3.45" y="3.575" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-3.45" y="2.925" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-3.45" y="2.275" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="5" x="-3.45" y="1.625" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="-3.45" y="0.975" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="-3.45" y="0.325" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="-3.45" y="-0.325" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="9" x="-3.45" y="-0.975" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="10" x="-3.45" y="-1.625" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="11" x="-3.45" y="-2.275" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="12" x="-3.45" y="-2.925" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="13" x="-3.45" y="-3.575" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="14" x="-3.45" y="-4.225" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="28" x="3.45" y="4.225" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="27" x="3.45" y="3.575" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="26" x="3.45" y="2.925" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="25" x="3.45" y="2.275" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="24" x="3.45" y="1.625" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="23" x="3.45" y="0.975" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="22" x="3.45" y="0.325" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="21" x="3.45" y="-0.325" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="20" x="3.45" y="-0.975" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="19" x="3.45" y="-1.625" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="18" x="3.45" y="-2.275" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="17" x="3.45" y="-2.925" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="16" x="3.45" y="-3.575" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+<smd name="15" x="3.45" y="-4.225" dx="0.45" dy="2.1" layer="1" roundness="100" rot="R90"/>
+</package>
+<package name="MICROCHIP_PIC18F26K80-I-SS_2">
+<description>MCHP-PIC18F26K80-28</description>
+<wire x1="-1.9" y1="-5.25" x2="-1.9" y2="5.25" width="0.15" layer="21"/>
+<wire x1="1.9" y1="-5.25" x2="1.9" y2="5.25" width="0.15" layer="21"/>
+<wire x1="-1.9" y1="5.25" x2="1.9" y2="5.25" width="0.15" layer="21"/>
+<wire x1="-1.9" y1="-5.25" x2="1.9" y2="-5.25" width="0.15" layer="21"/>
+<wire x1="-2.8" y1="-5.25" x2="-2.8" y2="5.25" width="0.1" layer="51"/>
+<wire x1="2.8" y1="-5.25" x2="2.8" y2="5.25" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="5.25" x2="2.8" y2="5.25" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="-5.25" x2="2.8" y2="-5.25" width="0.1" layer="51"/>
+<wire x1="-5.2" y1="-5.75" x2="-5.2" y2="5.75" width="0.1" layer="39"/>
+<wire x1="-5.2" y1="5.75" x2="5.2" y2="5.75" width="0.1" layer="39"/>
+<wire x1="5.2" y1="5.75" x2="5.2" y2="-5.75" width="0.1" layer="39"/>
+<wire x1="5.2" y1="-5.75" x2="-5.2" y2="-5.75" width="0.1" layer="39"/>
+<text x="-6.2" y="5.75" size="1" layer="25">&gt;NAME</text>
+<circle x="-3.5" y="5" radius="0.125" width="0.25" layer="21"/>
+<circle x="-0.9" y="4.25" radius="0.3" width="0.6" layer="21"/>
+<circle x="-1.9" y="4.35" radius="0.5" width="0.1" layer="51"/>
+<smd name="1" x="-3.5" y="4.225" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-3.5" y="3.575" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-3.5" y="2.925" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-3.5" y="2.275" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="5" x="-3.5" y="1.625" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="-3.5" y="0.975" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="-3.5" y="0.325" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="-3.5" y="-0.325" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="9" x="-3.5" y="-0.975" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="10" x="-3.5" y="-1.625" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="11" x="-3.5" y="-2.275" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="12" x="-3.5" y="-2.925" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="13" x="-3.5" y="-3.575" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="14" x="-3.5" y="-4.225" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="28" x="3.5" y="4.225" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="27" x="3.5" y="3.575" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="26" x="3.5" y="2.925" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="25" x="3.5" y="2.275" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="24" x="3.5" y="1.625" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="23" x="3.5" y="0.975" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="22" x="3.5" y="0.325" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="21" x="3.5" y="-0.325" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="20" x="3.5" y="-0.975" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="19" x="3.5" y="-1.625" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="18" x="3.5" y="-2.275" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="17" x="3.5" y="-2.925" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="16" x="3.5" y="-3.575" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+<smd name="15" x="3.5" y="-4.225" dx="0.45" dy="2.4" layer="1" roundness="100" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MICROCHIP_PIC18F26K80-I-SS_0_0">
+<description>MCHP-PIC18F26K80-28</description>
+<wire x1="0" y1="-55.88" x2="0" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="0" y1="-5.08" x2="96.52" y2="-5.08" width="0.508" layer="94"/>
+<wire x1="96.52" y1="-5.08" x2="96.52" y2="-55.88" width="0.508" layer="94"/>
+<wire x1="96.52" y1="-55.88" x2="0" y2="-55.88" width="0.508" layer="94"/>
+<wire x1="96.52" y1="-35.56" x2="96.52" y2="-35.56" width="0.15" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-7.62" width="0.15" layer="94"/>
+<wire x1="0" y1="-10.16" x2="0" y2="-10.16" width="0.15" layer="94"/>
+<wire x1="0" y1="-12.7" x2="0" y2="-12.7" width="0.15" layer="94"/>
+<wire x1="0" y1="-15.24" x2="0" y2="-15.24" width="0.15" layer="94"/>
+<wire x1="0" y1="-50.8" x2="0" y2="-50.8" width="0.15" layer="94"/>
+<wire x1="0" y1="-17.78" x2="0" y2="-17.78" width="0.15" layer="94"/>
+<wire x1="96.52" y1="-50.8" x2="96.52" y2="-50.8" width="0.15" layer="94"/>
+<wire x1="0" y1="-22.86" x2="0" y2="-22.86" width="0.15" layer="94"/>
+<wire x1="0" y1="-20.32" x2="0" y2="-20.32" width="0.15" layer="94"/>
+<wire x1="0" y1="-27.94" x2="0" y2="-27.94" width="0.15" layer="94"/>
+<wire x1="0" y1="-30.48" x2="0" y2="-30.48" width="0.15" layer="94"/>
+<wire x1="0" y1="-33.02" x2="0" y2="-33.02" width="0.15" layer="94"/>
+<wire x1="0" y1="-35.56" x2="0" y2="-35.56" width="0.15" layer="94"/>
+<wire x1="0" y1="-38.1" x2="0" y2="-38.1" width="0.15" layer="94"/>
+<wire x1="0" y1="-40.64" x2="0" y2="-40.64" width="0.15" layer="94"/>
+<wire x1="0" y1="-43.18" x2="0" y2="-43.18" width="0.15" layer="94"/>
+<wire x1="0" y1="-45.72" x2="0" y2="-45.72" width="0.15" layer="94"/>
+<wire x1="96.52" y1="-53.34" x2="96.52" y2="-53.34" width="0.15" layer="94"/>
+<wire x1="0" y1="-53.34" x2="0" y2="-53.34" width="0.15" layer="94"/>
+<wire x1="96.52" y1="-7.62" x2="96.52" y2="-7.62" width="0.15" layer="94"/>
+<wire x1="96.52" y1="-10.16" x2="96.52" y2="-10.16" width="0.15" layer="94"/>
+<wire x1="96.52" y1="-12.7" x2="96.52" y2="-12.7" width="0.15" layer="94"/>
+<wire x1="96.52" y1="-15.24" x2="96.52" y2="-15.24" width="0.15" layer="94"/>
+<wire x1="96.52" y1="-17.78" x2="96.52" y2="-17.78" width="0.15" layer="94"/>
+<wire x1="96.52" y1="-20.32" x2="96.52" y2="-20.32" width="0.15" layer="94"/>
+<wire x1="96.52" y1="-22.86" x2="96.52" y2="-22.86" width="0.15" layer="94"/>
+<wire x1="96.52" y1="-25.4" x2="96.52" y2="-25.4" width="0.15" layer="94"/>
+<text x="0" y="-2.54" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="0" y="-60.96" size="2.54" layer="95" align="top-left">PIC18F26K80-I/SS</text>
+<pin name="!MCLR!" x="101.6" y="-35.56" length="middle" direction="in" rot="R180"/>
+<pin name="RA0/AN0/CVREF/ULPWU" x="-5.08" y="-7.62" length="middle"/>
+<pin name="RA1/AN1" x="-5.08" y="-10.16" length="middle"/>
+<pin name="RA2/AN2/VREF-" x="-5.08" y="-12.7" length="middle"/>
+<pin name="RA3/AN3/VREF+" x="-5.08" y="-15.24" length="middle"/>
+<pin name="RA4/AN4/T0CKI" x="-5.08" y="-50.8" length="middle"/>
+<pin name="AN4C2INBHLVDINT1CKI/!SS!/CTMUI" x="-5.08" y="-17.78" length="middle"/>
+<pin name="2_VSS" x="101.6" y="-50.8" length="middle" direction="pwr" rot="R180"/>
+<pin name="RA7/OSC1/CLKIN" x="-5.08" y="-22.86" length="middle"/>
+<pin name="RA6/OSC2/CLKOUT" x="-5.08" y="-20.32" length="middle"/>
+<pin name="RC0/SOSCO/SCLKI" x="-5.08" y="-27.94" length="middle"/>
+<pin name="RC1/ISOSCI" x="-5.08" y="-30.48" length="middle"/>
+<pin name="RC2/T1G/CCP2" x="-5.08" y="-33.02" length="middle"/>
+<pin name="RC3/REFO/SCL/SCK" x="-5.08" y="-35.56" length="middle"/>
+<pin name="RC4/SDI/SDA" x="-5.08" y="-38.1" length="middle"/>
+<pin name="RC5/SDO" x="-5.08" y="-40.64" length="middle"/>
+<pin name="RC6/CANTX/TX1/CK1/CCP3" x="-5.08" y="-43.18" length="middle"/>
+<pin name="RC7/CANRX/RX1/DT1/CCP4" x="-5.08" y="-45.72" length="middle"/>
+<pin name="1_VSS" x="101.6" y="-53.34" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD" x="-5.08" y="-53.34" length="middle" direction="pwr"/>
+<pin name="RB0/AN10/C1INA/FLT0/INT0" x="101.6" y="-7.62" length="middle" rot="R180"/>
+<pin name="RB1/AN8/C1INB/P1B/CTDIN/INT1" x="101.6" y="-10.16" length="middle" rot="R180"/>
+<pin name="RB2/CANTX/C1OUT/P1C/CTED1/INT2" x="101.6" y="-12.7" length="middle" rot="R180"/>
+<pin name="RB3/CANRX/C2OUT/P1D/CTED2/INT3" x="101.6" y="-15.24" length="middle" rot="R180"/>
+<pin name="RB4/AN9/C2INA/ECCP1/P1A/CTPLS/KBI0" x="101.6" y="-17.78" length="middle" rot="R180"/>
+<pin name="RB5/T0CKI/T3CKI/CCP5/KBI1" x="101.6" y="-20.32" length="middle" rot="R180"/>
+<pin name="RB6/PGC/TX2/CK2/KBI2" x="101.6" y="-22.86" length="middle" rot="R180"/>
+<pin name="RB7/PGD/T3G/RX2/DT2/KBI3" x="101.6" y="-25.4" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MICROCHIP_PIC18F26K80-I-SS" prefix="U">
+<description>MCHP-PIC18F26K80-28</description>
+<gates>
+<gate name="G$0" symbol="MICROCHIP_PIC18F26K80-I-SS_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MICROCHIP_PIC18F26K80-I-SS_0_0" package="MICROCHIP_PIC18F26K80-I-SS_0">
+<connects>
+<connect gate="G$0" pin="!MCLR!" pad="1"/>
+<connect gate="G$0" pin="1_VSS" pad="19"/>
+<connect gate="G$0" pin="2_VSS" pad="8"/>
+<connect gate="G$0" pin="AN4C2INBHLVDINT1CKI/!SS!/CTMUI" pad="7"/>
+<connect gate="G$0" pin="RA0/AN0/CVREF/ULPWU" pad="2"/>
+<connect gate="G$0" pin="RA1/AN1" pad="3"/>
+<connect gate="G$0" pin="RA2/AN2/VREF-" pad="4"/>
+<connect gate="G$0" pin="RA3/AN3/VREF+" pad="5"/>
+<connect gate="G$0" pin="RA4/AN4/T0CKI" pad="6"/>
+<connect gate="G$0" pin="RA6/OSC2/CLKOUT" pad="10"/>
+<connect gate="G$0" pin="RA7/OSC1/CLKIN" pad="9"/>
+<connect gate="G$0" pin="RB0/AN10/C1INA/FLT0/INT0" pad="21"/>
+<connect gate="G$0" pin="RB1/AN8/C1INB/P1B/CTDIN/INT1" pad="22"/>
+<connect gate="G$0" pin="RB2/CANTX/C1OUT/P1C/CTED1/INT2" pad="23"/>
+<connect gate="G$0" pin="RB3/CANRX/C2OUT/P1D/CTED2/INT3" pad="24"/>
+<connect gate="G$0" pin="RB4/AN9/C2INA/ECCP1/P1A/CTPLS/KBI0" pad="25"/>
+<connect gate="G$0" pin="RB5/T0CKI/T3CKI/CCP5/KBI1" pad="26"/>
+<connect gate="G$0" pin="RB6/PGC/TX2/CK2/KBI2" pad="27"/>
+<connect gate="G$0" pin="RB7/PGD/T3G/RX2/DT2/KBI3" pad="28"/>
+<connect gate="G$0" pin="RC0/SOSCO/SCLKI" pad="11"/>
+<connect gate="G$0" pin="RC1/ISOSCI" pad="12"/>
+<connect gate="G$0" pin="RC2/T1G/CCP2" pad="13"/>
+<connect gate="G$0" pin="RC3/REFO/SCL/SCK" pad="14"/>
+<connect gate="G$0" pin="RC4/SDI/SDA" pad="15"/>
+<connect gate="G$0" pin="RC5/SDO" pad="16"/>
+<connect gate="G$0" pin="RC6/CANTX/TX1/CK1/CCP3" pad="17"/>
+<connect gate="G$0" pin="RC7/CANRX/RX1/DT1/CCP4" pad="18"/>
+<connect gate="G$0" pin="VDD" pad="20"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="2568621"/>
+<attribute name="COMPONENT_LINK_2_DESCRIPTION" value="Package Specification"/>
+<attribute name="COMPONENT_LINK_2_URL" value="http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"/>
+<attribute name="COMPONENT_LINK_3_DESCRIPTION" value="URL Link1"/>
+<attribute name="COMPONENT_LINK_3_URL" value="Product URL:http://www.microchip.com/datasheet/PIC18F26K80"/>
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf"/>
+<attribute name="DATASHEET_VERSION" value="Rev. F"/>
+<attribute name="DIGITAL_COMMUNICATION" value="2 -A/E/USART, 0 -SPI, 1 -MSSP(SPI/I2C)"/>
+<attribute name="EEPROM_DATA_MEMORY_BYTES" value="1024"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521856346"/>
+<attribute name="INTERNAL_OSCILLATOR" value="16 MHz, 31 kHz"/>
+<attribute name="IO_PINS" value="24"/>
+<attribute name="MAX_CPU_SPEED_MHZ" value="64"/>
+<attribute name="MEMORY_TYPE" value="Flash"/>
+<attribute name="MF" value="Microchip"/>
+<attribute name="MOUNTING_TECHNOLOGY" value="Surface Mount"/>
+<attribute name="MPN" value="PIC18F26K80-I/SS"/>
+<attribute name="OF_AD_CHANNELS" value="8"/>
+<attribute name="OPERATION_VOLTAGE_RANGE" value="1.8V - 5.5V"/>
+<attribute name="PACKAGE" value="SSOP-SS28"/>
+<attribute name="PACKAGE_DESCRIPTION" value="28-Lead Plastic Shrink Small Outline, 10.2 x 5.3 mm Body, 0.65 mm Pitch"/>
+<attribute name="PACKAGE_VERSION" value="C04-073B, 12/2012"/>
+<attribute name="PACKING" value="TUBE"/>
+<attribute name="PIN_0_0_10_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_13_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_16_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_25_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_26_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_6_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_8_INSIDE_EDGE" value="clock"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="PROGRAM_MEMORY_KBYTES" value="64"/>
+<attribute name="PROGRAM_MEMORY_KWORDS" value="32"/>
+<attribute name="RAM" value="3648"/>
+<attribute name="RELEASE_DATE" value="1370053844"/>
+<attribute name="ROHS" value="Yes"/>
+<attribute name="TIMERS" value="2 - 8-bit, 3 - 16-bit, 0 - 32-bit"/>
+<attribute name="VAULT_GUID" value="C135C57C-0587-43FA-9E8F-E65814E89CB3"/>
+<attribute name="VAULT_REVISION" value="30D37507-9CA6-45EA-90E7-221AADB17B4B"/>
+</technology>
+</technologies>
+</device>
+<device name="MICROCHIP_PIC18F26K80-I-SS_0_1" package="MICROCHIP_PIC18F26K80-I-SS_1">
+<connects>
+<connect gate="G$0" pin="!MCLR!" pad="1"/>
+<connect gate="G$0" pin="1_VSS" pad="19"/>
+<connect gate="G$0" pin="2_VSS" pad="8"/>
+<connect gate="G$0" pin="AN4C2INBHLVDINT1CKI/!SS!/CTMUI" pad="7"/>
+<connect gate="G$0" pin="RA0/AN0/CVREF/ULPWU" pad="2"/>
+<connect gate="G$0" pin="RA1/AN1" pad="3"/>
+<connect gate="G$0" pin="RA2/AN2/VREF-" pad="4"/>
+<connect gate="G$0" pin="RA3/AN3/VREF+" pad="5"/>
+<connect gate="G$0" pin="RA4/AN4/T0CKI" pad="6"/>
+<connect gate="G$0" pin="RA6/OSC2/CLKOUT" pad="10"/>
+<connect gate="G$0" pin="RA7/OSC1/CLKIN" pad="9"/>
+<connect gate="G$0" pin="RB0/AN10/C1INA/FLT0/INT0" pad="21"/>
+<connect gate="G$0" pin="RB1/AN8/C1INB/P1B/CTDIN/INT1" pad="22"/>
+<connect gate="G$0" pin="RB2/CANTX/C1OUT/P1C/CTED1/INT2" pad="23"/>
+<connect gate="G$0" pin="RB3/CANRX/C2OUT/P1D/CTED2/INT3" pad="24"/>
+<connect gate="G$0" pin="RB4/AN9/C2INA/ECCP1/P1A/CTPLS/KBI0" pad="25"/>
+<connect gate="G$0" pin="RB5/T0CKI/T3CKI/CCP5/KBI1" pad="26"/>
+<connect gate="G$0" pin="RB6/PGC/TX2/CK2/KBI2" pad="27"/>
+<connect gate="G$0" pin="RB7/PGD/T3G/RX2/DT2/KBI3" pad="28"/>
+<connect gate="G$0" pin="RC0/SOSCO/SCLKI" pad="11"/>
+<connect gate="G$0" pin="RC1/ISOSCI" pad="12"/>
+<connect gate="G$0" pin="RC2/T1G/CCP2" pad="13"/>
+<connect gate="G$0" pin="RC3/REFO/SCL/SCK" pad="14"/>
+<connect gate="G$0" pin="RC4/SDI/SDA" pad="15"/>
+<connect gate="G$0" pin="RC5/SDO" pad="16"/>
+<connect gate="G$0" pin="RC6/CANTX/TX1/CK1/CCP3" pad="17"/>
+<connect gate="G$0" pin="RC7/CANRX/RX1/DT1/CCP4" pad="18"/>
+<connect gate="G$0" pin="VDD" pad="20"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="2568621"/>
+<attribute name="COMPONENT_LINK_2_DESCRIPTION" value="Package Specification"/>
+<attribute name="COMPONENT_LINK_2_URL" value="http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"/>
+<attribute name="COMPONENT_LINK_3_DESCRIPTION" value="URL Link1"/>
+<attribute name="COMPONENT_LINK_3_URL" value="Product URL:http://www.microchip.com/datasheet/PIC18F26K80"/>
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf"/>
+<attribute name="DATASHEET_VERSION" value="Rev. F"/>
+<attribute name="DIGITAL_COMMUNICATION" value="2 -A/E/USART, 0 -SPI, 1 -MSSP(SPI/I2C)"/>
+<attribute name="EEPROM_DATA_MEMORY_BYTES" value="1024"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521856346"/>
+<attribute name="INTERNAL_OSCILLATOR" value="16 MHz, 31 kHz"/>
+<attribute name="IO_PINS" value="24"/>
+<attribute name="MAX_CPU_SPEED_MHZ" value="64"/>
+<attribute name="MEMORY_TYPE" value="Flash"/>
+<attribute name="MF" value="Microchip"/>
+<attribute name="MOUNTING_TECHNOLOGY" value="Surface Mount"/>
+<attribute name="MPN" value="PIC18F26K80-I/SS"/>
+<attribute name="OF_AD_CHANNELS" value="8"/>
+<attribute name="OPERATION_VOLTAGE_RANGE" value="1.8V - 5.5V"/>
+<attribute name="PACKAGE" value="SSOP-SS28"/>
+<attribute name="PACKAGE_DESCRIPTION" value="28-Lead Plastic Shrink Small Outline, 10.2 x 5.3 mm Body, 0.65 mm Pitch"/>
+<attribute name="PACKAGE_VERSION" value="C04-073B, 12/2012"/>
+<attribute name="PACKING" value="TUBE"/>
+<attribute name="PIN_0_0_10_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_13_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_16_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_25_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_26_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_6_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_8_INSIDE_EDGE" value="clock"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="PROGRAM_MEMORY_KBYTES" value="64"/>
+<attribute name="PROGRAM_MEMORY_KWORDS" value="32"/>
+<attribute name="RAM" value="3648"/>
+<attribute name="RELEASE_DATE" value="1370053844"/>
+<attribute name="ROHS" value="Yes"/>
+<attribute name="TIMERS" value="2 - 8-bit, 3 - 16-bit, 0 - 32-bit"/>
+<attribute name="VAULT_GUID" value="C135C57C-0587-43FA-9E8F-E65814E89CB3"/>
+<attribute name="VAULT_REVISION" value="30D37507-9CA6-45EA-90E7-221AADB17B4B"/>
+</technology>
+</technologies>
+</device>
+<device name="MICROCHIP_PIC18F26K80-I-SS_0_2" package="MICROCHIP_PIC18F26K80-I-SS_2">
+<connects>
+<connect gate="G$0" pin="!MCLR!" pad="1"/>
+<connect gate="G$0" pin="1_VSS" pad="19"/>
+<connect gate="G$0" pin="2_VSS" pad="8"/>
+<connect gate="G$0" pin="AN4C2INBHLVDINT1CKI/!SS!/CTMUI" pad="7"/>
+<connect gate="G$0" pin="RA0/AN0/CVREF/ULPWU" pad="2"/>
+<connect gate="G$0" pin="RA1/AN1" pad="3"/>
+<connect gate="G$0" pin="RA2/AN2/VREF-" pad="4"/>
+<connect gate="G$0" pin="RA3/AN3/VREF+" pad="5"/>
+<connect gate="G$0" pin="RA4/AN4/T0CKI" pad="6"/>
+<connect gate="G$0" pin="RA6/OSC2/CLKOUT" pad="10"/>
+<connect gate="G$0" pin="RA7/OSC1/CLKIN" pad="9"/>
+<connect gate="G$0" pin="RB0/AN10/C1INA/FLT0/INT0" pad="21"/>
+<connect gate="G$0" pin="RB1/AN8/C1INB/P1B/CTDIN/INT1" pad="22"/>
+<connect gate="G$0" pin="RB2/CANTX/C1OUT/P1C/CTED1/INT2" pad="23"/>
+<connect gate="G$0" pin="RB3/CANRX/C2OUT/P1D/CTED2/INT3" pad="24"/>
+<connect gate="G$0" pin="RB4/AN9/C2INA/ECCP1/P1A/CTPLS/KBI0" pad="25"/>
+<connect gate="G$0" pin="RB5/T0CKI/T3CKI/CCP5/KBI1" pad="26"/>
+<connect gate="G$0" pin="RB6/PGC/TX2/CK2/KBI2" pad="27"/>
+<connect gate="G$0" pin="RB7/PGD/T3G/RX2/DT2/KBI3" pad="28"/>
+<connect gate="G$0" pin="RC0/SOSCO/SCLKI" pad="11"/>
+<connect gate="G$0" pin="RC1/ISOSCI" pad="12"/>
+<connect gate="G$0" pin="RC2/T1G/CCP2" pad="13"/>
+<connect gate="G$0" pin="RC3/REFO/SCL/SCK" pad="14"/>
+<connect gate="G$0" pin="RC4/SDI/SDA" pad="15"/>
+<connect gate="G$0" pin="RC5/SDO" pad="16"/>
+<connect gate="G$0" pin="RC6/CANTX/TX1/CK1/CCP3" pad="17"/>
+<connect gate="G$0" pin="RC7/CANRX/RX1/DT1/CCP4" pad="18"/>
+<connect gate="G$0" pin="VDD" pad="20"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CIIVA_IDS" value="2568621"/>
+<attribute name="COMPONENT_LINK_2_DESCRIPTION" value="Package Specification"/>
+<attribute name="COMPONENT_LINK_2_URL" value="http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"/>
+<attribute name="COMPONENT_LINK_3_DESCRIPTION" value="URL Link1"/>
+<attribute name="COMPONENT_LINK_3_URL" value="Product URL:http://www.microchip.com/datasheet/PIC18F26K80"/>
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf"/>
+<attribute name="DATASHEET_VERSION" value="Rev. F"/>
+<attribute name="DIGITAL_COMMUNICATION" value="2 -A/E/USART, 0 -SPI, 1 -MSSP(SPI/I2C)"/>
+<attribute name="EEPROM_DATA_MEMORY_BYTES" value="1024"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_0" value="Level C"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_1" value="Level B"/>
+<attribute name="FOOTPRINT_VARIANT_NAME_2" value="Level A"/>
+<attribute name="IMPORTED" value="yes"/>
+<attribute name="IMPORTED_FROM" value="vault"/>
+<attribute name="IMPORT_TS" value="1521856346"/>
+<attribute name="INTERNAL_OSCILLATOR" value="16 MHz, 31 kHz"/>
+<attribute name="IO_PINS" value="24"/>
+<attribute name="MAX_CPU_SPEED_MHZ" value="64"/>
+<attribute name="MEMORY_TYPE" value="Flash"/>
+<attribute name="MF" value="Microchip"/>
+<attribute name="MOUNTING_TECHNOLOGY" value="Surface Mount"/>
+<attribute name="MPN" value="PIC18F26K80-I/SS"/>
+<attribute name="OF_AD_CHANNELS" value="8"/>
+<attribute name="OPERATION_VOLTAGE_RANGE" value="1.8V - 5.5V"/>
+<attribute name="PACKAGE" value="SSOP-SS28"/>
+<attribute name="PACKAGE_DESCRIPTION" value="28-Lead Plastic Shrink Small Outline, 10.2 x 5.3 mm Body, 0.65 mm Pitch"/>
+<attribute name="PACKAGE_VERSION" value="C04-073B, 12/2012"/>
+<attribute name="PACKING" value="TUBE"/>
+<attribute name="PIN_0_0_10_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_13_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_16_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_25_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_26_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_6_INSIDE_EDGE" value="clock"/>
+<attribute name="PIN_0_0_8_INSIDE_EDGE" value="clock"/>
+<attribute name="PREFIX" value="U"/>
+<attribute name="PROGRAM_MEMORY_KBYTES" value="64"/>
+<attribute name="PROGRAM_MEMORY_KWORDS" value="32"/>
+<attribute name="RAM" value="3648"/>
+<attribute name="RELEASE_DATE" value="1370053844"/>
+<attribute name="ROHS" value="Yes"/>
+<attribute name="TIMERS" value="2 - 8-bit, 3 - 16-bit, 0 - 32-bit"/>
+<attribute name="VAULT_GUID" value="C135C57C-0587-43FA-9E8F-E65814E89CB3"/>
+<attribute name="VAULT_REVISION" value="30D37507-9CA6-45EA-90E7-221AADB17B4B"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

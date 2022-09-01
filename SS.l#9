@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="MICROCHIP_PIC18F26K80-I-SS_0">
+                    <description>MCHP-PIC18F26K80-28</description>
+                    <wire layer="21" y2="5.25" width="0.15" x2="-2.0" y1="-5.25" x1="-2.0"/>
+                    <wire layer="21" y2="5.25" width="0.15" x2="2.0" y1="-5.25" x1="2.0"/>
+                    <wire layer="21" y2="5.25" width="0.15" x2="2.0" y1="5.25" x1="-2.0"/>
+                    <wire layer="21" y2="-5.25" width="0.15" x2="2.0" y1="-5.25" x1="-2.0"/>
+                    <wire layer="51" y2="5.25" width="0.1" x2="-2.8" y1="-5.25" x1="-2.8"/>
+                    <wire layer="51" y2="5.25" width="0.1" x2="2.8" y1="-5.25" x1="2.8"/>
+                    <wire layer="51" y2="5.25" width="0.1" x2="2.8" y1="5.25" x1="-2.8"/>
+                    <wire layer="51" y2="-5.25" width="0.1" x2="2.8" y1="-5.25" x1="-2.8"/>
+                    <wire layer="39" y2="5.35" width="0.1" x2="-4.6" y1="-5.35" x1="-4.6"/>
+                    <wire layer="39" y2="5.35" width="0.1" x2="4.6" y1="5.35" x1="-4.6"/>
+                    <wire layer="39" y2="-5.35" width="0.1" x2="4.6" y1="5.35" x1="4.6"/>
+                    <wire layer="39" y2="-5.35" width="0.1" x2="-4.6" y1="-5.35" x1="4.6"/>
+                    <text layer="25" align="bottom-left" y="5.35" x="-5.6" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="5.0" x="-3.45" layer="21" radius="0.125" width="0.25"/>
+                    <circle y="4.25" x="-1.0" layer="21" radius="0.3" width="0.6"/>
+                    <circle y="4.35" x="-1.9" layer="51" radius="0.5" width="0.1"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="100" dx="0.45" dy="2.1" y="4.225" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="0.45" dy="2.1" y="3.575" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="0.45" dy="2.1" y="2.925" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="0.45" dy="2.1" y="2.275" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="0.45" dy="2.1" y="1.625" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="0.45" dy="2.1" y="0.975" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="0.45" dy="2.1" y="0.325" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-0.325" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-0.975" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-1.625" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-2.275" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-2.925" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-3.575" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-4.225" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="28" stop="yes" roundness="100" dx="0.45" dy="2.1" y="4.225" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="27" stop="yes" roundness="100" dx="0.45" dy="2.1" y="3.575" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="26" stop="yes" roundness="100" dx="0.45" dy="2.1" y="2.925" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="25" stop="yes" roundness="100" dx="0.45" dy="2.1" y="2.275" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="0.45" dy="2.1" y="1.625" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="0.45" dy="2.1" y="0.975" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="0.45" dy="2.1" y="0.325" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-0.325" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-0.975" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-1.625" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-2.275" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-2.925" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-3.575" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-4.225" x="3.45" rot="R90" cream="yes"/>
+                </package>
+                <package name="MICROCHIP_PIC18F26K80-I-SS_1">
+                    <description>MCHP-PIC18F26K80-28</description>
+                    <wire layer="21" y2="5.25" width="0.15" x2="-2.0" y1="-5.25" x1="-2.0"/>
+                    <wire layer="21" y2="5.25" width="0.15" x2="2.0" y1="-5.25" x1="2.0"/>
+                    <wire layer="21" y2="5.25" width="0.15" x2="2.0" y1="5.25" x1="-2.0"/>
+                    <wire layer="21" y2="-5.25" width="0.15" x2="2.0" y1="-5.25" x1="-2.0"/>
+                    <wire layer="51" y2="5.25" width="0.1" x2="-2.8" y1="-5.25" x1="-2.8"/>
+                    <wire layer="51" y2="5.25" width="0.1" x2="2.8" y1="-5.25" x1="2.8"/>
+                    <wire layer="51" y2="5.25" width="0.1" x2="2.8" y1="5.25" x1="-2.8"/>
+                    <wire layer="51" y2="-5.25" width="0.1" x2="2.8" y1="-5.25" x1="-2.8"/>
+                    <wire layer="39" y2="5.5" width="0.1" x2="-4.75" y1="-5.5" x1="-4.75"/>
+                    <wire layer="39" y2="5.5" width="0.1" x2="4.75" y1="5.5" x1="-4.75"/>
+                    <wire layer="39" y2="-5.5" width="0.1" x2="4.75" y1="5.5" x1="4.75"/>
+                    <wire layer="39" y2="-5.5" width="0.1" x2="-4.75" y1="-5.5" x1="4.75"/>
+                    <text layer="25" align="bottom-left" y="5.5" x="-5.75" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="5.0" x="-3.45" layer="21" radius="0.125" width="0.25"/>
+                    <circle y="4.25" x="-1.0" layer="21" radius="0.3" width="0.6"/>
+                    <circle y="4.35" x="-1.9" layer="51" radius="0.5" width="0.1"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="100" dx="0.45" dy="2.1" y="4.225" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="0.45" dy="2.1" y="3.575" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="0.45" dy="2.1" y="2.925" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="0.45" dy="2.1" y="2.275" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="0.45" dy="2.1" y="1.625" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="0.45" dy="2.1" y="0.975" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="0.45" dy="2.1" y="0.325" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-0.325" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-0.975" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-1.625" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-2.275" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-2.925" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-3.575" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-4.225" x="-3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="28" stop="yes" roundness="100" dx="0.45" dy="2.1" y="4.225" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="27" stop="yes" roundness="100" dx="0.45" dy="2.1" y="3.575" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="26" stop="yes" roundness="100" dx="0.45" dy="2.1" y="2.925" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="25" stop="yes" roundness="100" dx="0.45" dy="2.1" y="2.275" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="0.45" dy="2.1" y="1.625" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="0.45" dy="2.1" y="0.975" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="0.45" dy="2.1" y="0.325" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-0.325" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-0.975" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-1.625" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-2.275" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-2.925" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-3.575" x="3.45" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="0.45" dy="2.1" y="-4.225" x="3.45" rot="R90" cream="yes"/>
+                </package>
+                <package name="MICROCHIP_PIC18F26K80-I-SS_2">
+                    <description>MCHP-PIC18F26K80-28</description>
+                    <wire layer="21" y2="5.25" width="0.15" x2="-1.9" y1="-5.25" x1="-1.9"/>
+                    <wire layer="21" y2="5.25" width="0.15" x2="1.9" y1="-5.25" x1="1.9"/>
+                    <wire layer="21" y2="5.25" width="0.15" x2="1.9" y1="5.25" x1="-1.9"/>
+                    <wire layer="21" y2="-5.25" width="0.15" x2="1.9" y1="-5.25" x1="-1.9"/>
+                    <wire layer="51" y2="5.25" width="0.1" x2="-2.8" y1="-5.25" x1="-2.8"/>
+                    <wire layer="51" y2="5.25" width="0.1" x2="2.8" y1="-5.25" x1="2.8"/>
+                    <wire layer="51" y2="5.25" width="0.1" x2="2.8" y1="5.25" x1="-2.8"/>
+                    <wire layer="51" y2="-5.25" width="0.1" x2="2.8" y1="-5.25" x1="-2.8"/>
+                    <wire layer="39" y2="5.75" width="0.1" x2="-5.2" y1="-5.75" x1="-5.2"/>
+                    <wire layer="39" y2="5.75" width="0.1" x2="5.2" y1="5.75" x1="-5.2"/>
+                    <wire layer="39" y2="-5.75" width="0.1" x2="5.2" y1="5.75" x1="5.2"/>
+                    <wire layer="39" y2="-5.75" width="0.1" x2="-5.2" y1="-5.75" x1="5.2"/>
+                    <text layer="25" align="bottom-left" y="5.75" x="-6.2" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="5.0" x="-3.5" layer="21" radius="0.125" width="0.25"/>
+                    <circle y="4.25" x="-0.9" layer="21" radius="0.3" width="0.6"/>
+                    <circle y="4.35" x="-1.9" layer="51" radius="0.5" width="0.1"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="100" dx="0.45" dy="2.4" y="4.225" x="-3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="0.45" dy="2.4" y="3.575" x="-3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="0.45" dy="2.4" y="2.925" x="-3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="0.45" dy="2.4" y="2.275" x="-3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="0.45" dy="2.4" y="1.625" x="-3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="0.45" dy="2.4" y="0.975" x="-3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="0.45" dy="2.4" y="0.325" x="-3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="0.45" dy="2.4" y="-0.325" x="-3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="100" dx="0.45" dy="2.4" y="-0.975" x="-3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="100" dx="0.45" dy="2.4" y="-1.625" x="-3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="11" stop="yes" roundness="100" dx="0.45" dy="2.4" y="-2.275" x="-3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="12" stop="yes" roundness="100" dx="0.45" dy="2.4" y="-2.925" x="-3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="13" stop="yes" roundness="100" dx="0.45" dy="2.4" y="-3.575" x="-3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="14" stop="yes" roundness="100" dx="0.45" dy="2.4" y="-4.225" x="-3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="28" stop="yes" roundness="100" dx="0.45" dy="2.4" y="4.225" x="3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="27" stop="yes" roundness="100" dx="0.45" dy="2.4" y="3.575" x="3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="26" stop="yes" roundness="100" dx="0.45" dy="2.4" y="2.925" x="3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="25" stop="yes" roundness="100" dx="0.45" dy="2.4" y="2.275" x="3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="24" stop="yes" roundness="100" dx="0.45" dy="2.4" y="1.625" x="3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="23" stop="yes" roundness="100" dx="0.45" dy="2.4" y="0.975" x="3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="22" stop="yes" roundness="100" dx="0.45" dy="2.4" y="0.325" x="3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="21" stop="yes" roundness="100" dx="0.45" dy="2.4" y="-0.325" x="3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="20" stop="yes" roundness="100" dx="0.45" dy="2.4" y="-0.975" x="3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="19" stop="yes" roundness="100" dx="0.45" dy="2.4" y="-1.625" x="3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="18" stop="yes" roundness="100" dx="0.45" dy="2.4" y="-2.275" x="3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="17" stop="yes" roundness="100" dx="0.45" dy="2.4" y="-2.925" x="3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="16" stop="yes" roundness="100" dx="0.45" dy="2.4" y="-3.575" x="3.5" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="15" stop="yes" roundness="100" dx="0.45" dy="2.4" y="-4.225" x="3.5" rot="R90" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="MICROCHIP_PIC18F26K80-I-SS_0_0">
+                    <description>MCHP-PIC18F26K80-28</description>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="0.0" y1="-55.88" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="96.52" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-55.88" width="0.508" x2="96.52" y1="-5.08" x1="96.52"/>
+                    <wire layer="94" y2="-55.88" width="0.508" x2="0.0" y1="-55.88" x1="96.52"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="96.52" y1="-35.56" x1="96.52"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="0.0" y1="-7.62" x1="0.0"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="0.0" y1="-10.16" x1="0.0"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="0.0" y1="-12.7" x1="0.0"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="0.0" y1="-15.24" x1="0.0"/>
+                    <wire layer="94" y2="-50.8" width="0.15" x2="0.0" y1="-50.8" x1="0.0"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="0.0" y1="-17.78" x1="0.0"/>
+                    <wire layer="94" y2="-50.8" width="0.15" x2="96.52" y1="-50.8" x1="96.52"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="0.0" y1="-22.86" x1="0.0"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="0.0" y1="-20.32" x1="0.0"/>
+                    <wire layer="94" y2="-27.94" width="0.15" x2="0.0" y1="-27.94" x1="0.0"/>
+                    <wire layer="94" y2="-30.48" width="0.15" x2="0.0" y1="-30.48" x1="0.0"/>
+                    <wire layer="94" y2="-33.02" width="0.15" x2="0.0" y1="-33.02" x1="0.0"/>
+                    <wire layer="94" y2="-35.56" width="0.15" x2="0.0" y1="-35.56" x1="0.0"/>
+                    <wire layer="94" y2="-38.1" width="0.15" x2="0.0" y1="-38.1" x1="0.0"/>
+                    <wire layer="94" y2="-40.64" width="0.15" x2="0.0" y1="-40.64" x1="0.0"/>
+                    <wire layer="94" y2="-43.18" width="0.15" x2="0.0" y1="-43.18" x1="0.0"/>
+                    <wire layer="94" y2="-45.72" width="0.15" x2="0.0" y1="-45.72" x1="0.0"/>
+                    <wire layer="94" y2="-53.34" width="0.15" x2="96.52" y1="-53.34" x1="96.52"/>
+                    <wire layer="94" y2="-53.34" width="0.15" x2="0.0" y1="-53.34" x1="0.0"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="96.52" y1="-7.62" x1="96.52"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="96.52" y1="-10.16" x1="96.52"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="96.52" y1="-12.7" x1="96.52"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="96.52" y1="-15.24" x1="96.52"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="96.52" y1="-17.78" x1="96.52"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="96.52" y1="-20.32" x1="96.52"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="96.52" y1="-22.86" x1="96.52"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="96.52" y1="-25.4" x1="96.52"/>
+                    <text layer="95" align="top-left" y="-2.54" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-60.96" x="0.0" rot="R0" size="2.54">PIC18F26K80-I/SS</text>
+                    <pin direction="in" name="!MCLR!" visible="both" length="middle" y="-35.56" x="101.6" rot="R180"/>
+                    <pin direction="io" name="RA0/AN0/CVREF/ULPWU" visible="both" length="middle" y="-7.62" x="-5.08"/>
+                    <pin direction="io" name="RA1/AN1" visible="both" length="middle" y="-10.16" x="-5.08"/>
+                    <pin direction="io" name="RA2/AN2/VREF-" visible="both" length="middle" y="-12.7" x="-5.08"/>
+                    <pin direction="io" name="RA3/AN3/VREF+" visible="both" length="middle" y="-15.24" x="-5.08"/>
+                    <pin direction="pwr" name="VDDCORE/VCAP" visible="both" length="middle" y="-50.8" x="-5.08"/>
+                    <pin direction="io" name="AN4C2INBHLVDINT1CKI/!SS!/CTMUI" visible="both" length="middle" y="-17.78" x="-5.08"/>
+                    <pin direction="pwr" name="2_VSS" visible="both" length="middle" y="-50.8" x="101.6" rot="R180"/>
+                    <pin direction="io" name="RA7/OSC1/CLKIN" visible="both" length="middle" y="-22.86" x="-5.08"/>
+                    <pin direction="io" name="RA6/OSC2/CLKOUT" visible="both" length="middle" y="-20.32" x="-5.08"/>
+                    <pin direction="io" name="RC0/SOSCO/SCLKI" visible="both" length="middle" y="-27.94" x="-5.08"/>
+                    <pin direction="io" name="RC1/ISOSCI" visible="both" length="middle" y="-30.48" x="-5.08"/>
+                    <pin direction="io" name="RC2/T1G/CCP2" visible="both" length="middle" y="-33.02" x="-5.08"/>
+                    <pin direction="io" name="RC3/REFO/SCL/SCK" visible="both" length="middle" y="-35.56" x="-5.08"/>
+                    <pin direction="io" name="RC4/SDI/SDA" visible="both" length="middle" y="-38.1" x="-5.08"/>
+                    <pin direction="io" name="RC5/SDO" visible="both" length="middle" y="-40.64" x="-5.08"/>
+                    <pin direction="io" name="RC6/CANTX/TX1/CK1/CCP3" visible="both" length="middle" y="-43.18" x="-5.08"/>
+                    <pin direction="io" name="RC7/CANRX/RX1/DT1/CCP4" visible="both" length="middle" y="-45.72" x="-5.08"/>
+                    <pin direction="pwr" name="1_VSS" visible="both" length="middle" y="-53.34" x="101.6" rot="R180"/>
+                    <pin direction="pwr" name="VDD" visible="both" length="middle" y="-53.34" x="-5.08"/>
+                    <pin direction="io" name="RB0/AN10/C1INA/FLT0/INT0" visible="both" length="middle" y="-7.62" x="101.6" rot="R180"/>
+                    <pin direction="io" name="RB1/AN8/C1INB/P1B/CTDIN/INT1" visible="both" length="middle" y="-10.16" x="101.6" rot="R180"/>
+                    <pin direction="io" name="RB2/CANTX/C1OUT/P1C/CTED1/INT2" visible="both" length="middle" y="-12.7" x="101.6" rot="R180"/>
+                    <pin direction="io" name="RB3/CANRX/C2OUT/P1D/CTED2/INT3" visible="both" length="middle" y="-15.24" x="101.6" rot="R180"/>
+                    <pin direction="io" name="RB4/AN9/C2INA/ECCP1/P1A/CTPLS/KBI0" visible="both" length="middle" y="-17.78" x="101.6" rot="R180"/>
+                    <pin direction="io" name="RB5/T0CKI/T3CKI/CCP5/KBI1" visible="both" length="middle" y="-20.32" x="101.6" rot="R180"/>
+                    <pin direction="io" name="RB6/PGC/TX2/CK2/KBI2" visible="both" length="middle" y="-22.86" x="101.6" rot="R180"/>
+                    <pin direction="io" name="RB7/PGD/T3G/RX2/DT2/KBI3" visible="both" length="middle" y="-25.4" x="101.6" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="MICROCHIP_PIC18F26K80-I-SS">
+                    <description>MCHP-PIC18F26K80-28</description>
+                    <gates>
+                        <gate name="G$0" symbol="MICROCHIP_PIC18F26K80-I-SS_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="MICROCHIP_PIC18F26K80-I-SS_0_0" package="MICROCHIP_PIC18F26K80-I-SS_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="!MCLR!"/>
+                                <connect gate="G$0" pad="10" pin="RA6/OSC2/CLKOUT"/>
+                                <connect gate="G$0" pad="11" pin="RC0/SOSCO/SCLKI"/>
+                                <connect gate="G$0" pad="12" pin="RC1/ISOSCI"/>
+                                <connect gate="G$0" pad="13" pin="RC2/T1G/CCP2"/>
+                                <connect gate="G$0" pad="14" pin="RC3/REFO/SCL/SCK"/>
+                                <connect gate="G$0" pad="15" pin="RC4/SDI/SDA"/>
+                                <connect gate="G$0" pad="16" pin="RC5/SDO"/>
+                                <connect gate="G$0" pad="17" pin="RC6/CANTX/TX1/CK1/CCP3"/>
+                                <connect gate="G$0" pad="18" pin="RC7/CANRX/RX1/DT1/CCP4"/>
+                                <connect gate="G$0" pad="19" pin="1_VSS"/>
+                                <connect gate="G$0" pad="2" pin="RA0/AN0/CVREF/ULPWU"/>
+                                <connect gate="G$0" pad="20" pin="VDD"/>
+                                <connect gate="G$0" pad="21" pin="RB0/AN10/C1INA/FLT0/INT0"/>
+                                <connect gate="G$0" pad="22" pin="RB1/AN8/C1INB/P1B/CTDIN/INT1"/>
+                                <connect gate="G$0" pad="23" pin="RB2/CANTX/C1OUT/P1C/CTED1/INT2"/>
+                                <connect gate="G$0" pad="24" pin="RB3/CANRX/C2OUT/P1D/CTED2/INT3"/>
+                                <connect gate="G$0" pad="25" pin="RB4/AN9/C2INA/ECCP1/P1A/CTPLS/KBI0"/>
+                                <connect gate="G$0" pad="26" pin="RB5/T0CKI/T3CKI/CCP5/KBI1"/>
+                                <connect gate="G$0" pad="27" pin="RB6/PGC/TX2/CK2/KBI2"/>
+                                <connect gate="G$0" pad="28" pin="RB7/PGD/T3G/RX2/DT2/KBI3"/>
+                                <connect gate="G$0" pad="3" pin="RA1/AN1"/>
+                                <connect gate="G$0" pad="4" pin="RA2/AN2/VREF-"/>
+                                <connect gate="G$0" pad="5" pin="RA3/AN3/VREF+"/>
+                                <connect gate="G$0" pad="6" pin="VDDCORE/VCAP"/>
+                                <connect gate="G$0" pad="7" pin="AN4C2INBHLVDINT1CKI/!SS!/CTMUI"/>
+                                <connect gate="G$0" pad="8" pin="2_VSS"/>
+                                <connect gate="G$0" pad="9" pin="RA7/OSC1/CLKIN"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="RAM" value="3648"/>
+                                    <attribute name="Component_Link_2_Description" value="Package Specification"/>
+                                    <attribute name="ciiva_ids" value="2568621"/>
+                                    <attribute name="Component_Link_2_URL" value="http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"/>
+                                    <attribute name="Package_Version" value="C04-073B, 12/2012"/>
+                                    <attribute name="IO_Pins" value="24"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="pin_0_0_8_inside_edge" value="clock"/>
+                                    <attribute name="Internal_Oscillator" value="16 MHz, 31 kHz"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="Memory_Type" value="Flash"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="vault_revision" value="30D37507-9CA6-45EA-90E7-221AADB17B4B"/>
+                                    <attribute name="pin_0_0_6_inside_edge" value="clock"/>
+                                    <attribute name="Max_CPU_Speed_MHz" value="64"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="import_ts" value="1521856346"/>
+                                    <attribute name="Datasheet_Version" value="Rev. F"/>
+                                    <attribute name="Packing" value="TUBE"/>
+                                    <attribute name="EEPROM_Data_Memory_bytes" value="1024"/>
+                                    <attribute name="Package_Description" value="28-Lead Plastic Shrink Small Outline, 10.2 x 5.3 mm Body, 0.65 mm Pitch"/>
+                                    <attribute name="Operation_Voltage_Range" value="1.8V - 5.5V"/>
+                                    <attribute name="datasheet" value="http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf"/>
+                                    <attribute name="of_AD_Channels" value="8"/>
+                                    <attribute name="pin_0_0_13_inside_edge" value="clock"/>
+                                    <attribute name="Program_Memory_KBytes" value="64"/>
+                                    <attribute name="vault_guid" value="C135C57C-0587-43FA-9E8F-E65814E89CB3"/>
+                                    <attribute name="Digital_Communication" value="2 -A/E/USART, 0 -SPI, 1 -MSSP(SPI/I2C)"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="release_date" value="1370053844"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="Timers" value="2 - 8-bit, 3 - 16-bit, 0 - 32-bit"/>
+                                    <attribute name="MPN" value="PIC18F26K80-I/SS"/>
+                                    <attribute name="pin_0_0_16_inside_edge" value="clock"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="Component_Link_3_Description" value="URL Link1"/>
+                                    <attribute name="pin_0_0_26_inside_edge" value="clock"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="MF" value="Microchip"/>
+                                    <attribute name="pin_0_0_25_inside_edge" value="clock"/>
+                                    <attribute name="package" value="SSOP-SS28"/>
+                                    <attribute name="pin_0_0_10_inside_edge" value="clock"/>
+                                    <attribute name="Component_Link_3_URL" value="Product URL:http://www.microchip.com/datasheet/PIC18F26K80"/>
+                                    <attribute name="Program_Memory_KWords" value="32"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="MICROCHIP_PIC18F26K80-I-SS_0_1" package="MICROCHIP_PIC18F26K80-I-SS_1">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="!MCLR!"/>
+                                <connect gate="G$0" pad="10" pin="RA6/OSC2/CLKOUT"/>
+                                <connect gate="G$0" pad="11" pin="RC0/SOSCO/SCLKI"/>
+                                <connect gate="G$0" pad="12" pin="RC1/ISOSCI"/>
+                                <connect gate="G$0" pad="13" pin="RC2/T1G/CCP2"/>
+                                <connect gate="G$0" pad="14" pin="RC3/REFO/SCL/SCK"/>
+                                <connect gate="G$0" pad="15" pin="RC4/SDI/SDA"/>
+                                <connect gate="G$0" pad="16" pin="RC5/SDO"/>
+                                <connect gate="G$0" pad="17" pin="RC6/CANTX/TX1/CK1/CCP3"/>
+                                <connect gate="G$0" pad="18" pin="RC7/CANRX/RX1/DT1/CCP4"/>
+                                <connect gate="G$0" pad="19" pin="1_VSS"/>
+                                <connect gate="G$0" pad="2" pin="RA0/AN0/CVREF/ULPWU"/>
+                                <connect gate="G$0" pad="20" pin="VDD"/>
+                                <connect gate="G$0" pad="21" pin="RB0/AN10/C1INA/FLT0/INT0"/>
+                                <connect gate="G$0" pad="22" pin="RB1/AN8/C1INB/P1B/CTDIN/INT1"/>
+                                <connect gate="G$0" pad="23" pin="RB2/CANTX/C1OUT/P1C/CTED1/INT2"/>
+                                <connect gate="G$0" pad="24" pin="RB3/CANRX/C2OUT/P1D/CTED2/INT3"/>
+                                <connect gate="G$0" pad="25" pin="RB4/AN9/C2INA/ECCP1/P1A/CTPLS/KBI0"/>
+                                <connect gate="G$0" pad="26" pin="RB5/T0CKI/T3CKI/CCP5/KBI1"/>
+                                <connect gate="G$0" pad="27" pin="RB6/PGC/TX2/CK2/KBI2"/>
+                                <connect gate="G$0" pad="28" pin="RB7/PGD/T3G/RX2/DT2/KBI3"/>
+                                <connect gate="G$0" pad="3" pin="RA1/AN1"/>
+                                <connect gate="G$0" pad="4" pin="RA2/AN2/VREF-"/>
+                                <connect gate="G$0" pad="5" pin="RA3/AN3/VREF+"/>
+                                <connect gate="G$0" pad="6" pin="VDDCORE/VCAP"/>
+                                <connect gate="G$0" pad="7" pin="AN4C2INBHLVDINT1CKI/!SS!/CTMUI"/>
+                                <connect gate="G$0" pad="8" pin="2_VSS"/>
+                                <connect gate="G$0" pad="9" pin="RA7/OSC1/CLKIN"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="RAM" value="3648"/>
+                                    <attribute name="Component_Link_2_Description" value="Package Specification"/>
+                                    <attribute name="ciiva_ids" value="2568621"/>
+                                    <attribute name="Component_Link_2_URL" value="http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"/>
+                                    <attribute name="Package_Version" value="C04-073B, 12/2012"/>
+                                    <attribute name="IO_Pins" value="24"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="pin_0_0_8_inside_edge" value="clock"/>
+                                    <attribute name="Internal_Oscillator" value="16 MHz, 31 kHz"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="Memory_Type" value="Flash"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="vault_revision" value="30D37507-9CA6-45EA-90E7-221AADB17B4B"/>
+                                    <attribute name="pin_0_0_6_inside_edge" value="clock"/>
+                                    <attribute name="Max_CPU_Speed_MHz" value="64"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="import_ts" value="1521856346"/>
+                                    <attribute name="Datasheet_Version" value="Rev. F"/>
+                                    <attribute name="Packing" value="TUBE"/>
+                                    <attribute name="EEPROM_Data_Memory_bytes" value="1024"/>
+                                    <attribute name="Package_Description" value="28-Lead Plastic Shrink Small Outline, 10.2 x 5.3 mm Body, 0.65 mm Pitch"/>
+                                    <attribute name="Operation_Voltage_Range" value="1.8V - 5.5V"/>
+                                    <attribute name="datasheet" value="http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf"/>
+                                    <attribute name="of_AD_Channels" value="8"/>
+                                    <attribute name="pin_0_0_13_inside_edge" value="clock"/>
+                                    <attribute name="Program_Memory_KBytes" value="64"/>
+                                    <attribute name="vault_guid" value="C135C57C-0587-43FA-9E8F-E65814E89CB3"/>
+                                    <attribute name="Digital_Communication" value="2 -A/E/USART, 0 -SPI, 1 -MSSP(SPI/I2C)"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="release_date" value="1370053844"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="Timers" value="2 - 8-bit, 3 - 16-bit, 0 - 32-bit"/>
+                                    <attribute name="MPN" value="PIC18F26K80-I/SS"/>
+                                    <attribute name="pin_0_0_16_inside_edge" value="clock"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="Component_Link_3_Description" value="URL Link1"/>
+                                    <attribute name="pin_0_0_26_inside_edge" value="clock"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="MF" value="Microchip"/>
+                                    <attribute name="pin_0_0_25_inside_edge" value="clock"/>
+                                    <attribute name="package" value="SSOP-SS28"/>
+                                    <attribute name="pin_0_0_10_inside_edge" value="clock"/>
+                                    <attribute name="Component_Link_3_URL" value="Product URL:http://www.microchip.com/datasheet/PIC18F26K80"/>
+                                    <attribute name="Program_Memory_KWords" value="32"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="MICROCHIP_PIC18F26K80-I-SS_0_2" package="MICROCHIP_PIC18F26K80-I-SS_2">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="!MCLR!"/>
+                                <connect gate="G$0" pad="10" pin="RA6/OSC2/CLKOUT"/>
+                                <connect gate="G$0" pad="11" pin="RC0/SOSCO/SCLKI"/>
+                                <connect gate="G$0" pad="12" pin="RC1/ISOSCI"/>
+                                <connect gate="G$0" pad="13" pin="RC2/T1G/CCP2"/>
+                                <connect gate="G$0" pad="14" pin="RC3/REFO/SCL/SCK"/>
+                                <connect gate="G$0" pad="15" pin="RC4/SDI/SDA"/>
+                                <connect gate="G$0" pad="16" pin="RC5/SDO"/>
+                                <connect gate="G$0" pad="17" pin="RC6/CANTX/TX1/CK1/CCP3"/>
+                                <connect gate="G$0" pad="18" pin="RC7/CANRX/RX1/DT1/CCP4"/>
+                                <connect gate="G$0" pad="19" pin="1_VSS"/>
+                                <connect gate="G$0" pad="2" pin="RA0/AN0/CVREF/ULPWU"/>
+                                <connect gate="G$0" pad="20" pin="VDD"/>
+                                <connect gate="G$0" pad="21" pin="RB0/AN10/C1INA/FLT0/INT0"/>
+                                <connect gate="G$0" pad="22" pin="RB1/AN8/C1INB/P1B/CTDIN/INT1"/>
+                                <connect gate="G$0" pad="23" pin="RB2/CANTX/C1OUT/P1C/CTED1/INT2"/>
+                                <connect gate="G$0" pad="24" pin="RB3/CANRX/C2OUT/P1D/CTED2/INT3"/>
+                                <connect gate="G$0" pad="25" pin="RB4/AN9/C2INA/ECCP1/P1A/CTPLS/KBI0"/>
+                                <connect gate="G$0" pad="26" pin="RB5/T0CKI/T3CKI/CCP5/KBI1"/>
+                                <connect gate="G$0" pad="27" pin="RB6/PGC/TX2/CK2/KBI2"/>
+                                <connect gate="G$0" pad="28" pin="RB7/PGD/T3G/RX2/DT2/KBI3"/>
+                                <connect gate="G$0" pad="3" pin="RA1/AN1"/>
+                                <connect gate="G$0" pad="4" pin="RA2/AN2/VREF-"/>
+                                <connect gate="G$0" pad="5" pin="RA3/AN3/VREF+"/>
+                                <connect gate="G$0" pad="6" pin="VDDCORE/VCAP"/>
+                                <connect gate="G$0" pad="7" pin="AN4C2INBHLVDINT1CKI/!SS!/CTMUI"/>
+                                <connect gate="G$0" pad="8" pin="2_VSS"/>
+                                <connect gate="G$0" pad="9" pin="RA7/OSC1/CLKIN"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="RAM" value="3648"/>
+                                    <attribute name="Component_Link_2_Description" value="Package Specification"/>
+                                    <attribute name="ciiva_ids" value="2568621"/>
+                                    <attribute name="Component_Link_2_URL" value="http://www.microchip.com/stellent/groups/techpub_sg/documents/packagingspec/en012702.pdf"/>
+                                    <attribute name="Package_Version" value="C04-073B, 12/2012"/>
+                                    <attribute name="IO_Pins" value="24"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="pin_0_0_8_inside_edge" value="clock"/>
+                                    <attribute name="Internal_Oscillator" value="16 MHz, 31 kHz"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="Memory_Type" value="Flash"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="vault_revision" value="30D37507-9CA6-45EA-90E7-221AADB17B4B"/>
+                                    <attribute name="pin_0_0_6_inside_edge" value="clock"/>
+                                    <attribute name="Max_CPU_Speed_MHz" value="64"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="import_ts" value="1521856346"/>
+                                    <attribute name="Datasheet_Version" value="Rev. F"/>
+                                    <attribute name="Packing" value="TUBE"/>
+                                    <attribute name="EEPROM_Data_Memory_bytes" value="1024"/>
+                                    <attribute name="Package_Description" value="28-Lead Plastic Shrink Small Outline, 10.2 x 5.3 mm Body, 0.65 mm Pitch"/>
+                                    <attribute name="Operation_Voltage_Range" value="1.8V - 5.5V"/>
+                                    <attribute name="datasheet" value="http://ww1.microchip.com/downloads/en/DeviceDoc/39977f.pdf"/>
+                                    <attribute name="of_AD_Channels" value="8"/>
+                                    <attribute name="pin_0_0_13_inside_edge" value="clock"/>
+                                    <attribute name="Program_Memory_KBytes" value="64"/>
+                                    <attribute name="vault_guid" value="C135C57C-0587-43FA-9E8F-E65814E89CB3"/>
+                                    <attribute name="Digital_Communication" value="2 -A/E/USART, 0 -SPI, 1 -MSSP(SPI/I2C)"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="release_date" value="1370053844"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="Timers" value="2 - 8-bit, 3 - 16-bit, 0 - 32-bit"/>
+                                    <attribute name="MPN" value="PIC18F26K80-I/SS"/>
+                                    <attribute name="pin_0_0_16_inside_edge" value="clock"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="Component_Link_3_Description" value="URL Link1"/>
+                                    <attribute name="pin_0_0_26_inside_edge" value="clock"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="MF" value="Microchip"/>
+                                    <attribute name="pin_0_0_25_inside_edge" value="clock"/>
+                                    <attribute name="package" value="SSOP-SS28"/>
+                                    <attribute name="pin_0_0_10_inside_edge" value="clock"/>
+                                    <attribute name="Component_Link_3_URL" value="Product URL:http://www.microchip.com/datasheet/PIC18F26K80"/>
+                                    <attribute name="Program_Memory_KWords" value="32"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
